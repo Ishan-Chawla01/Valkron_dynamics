@@ -6,6 +6,9 @@ My current work deals with civilian vehicles which's code I will be posting here
 + Relies on **VisDrone dataset** for data collection
 + Is heavily skewed in favour of one class (cars).
 Looking forward to working with you
+### Dataset link
+This is the link to the dataset that was used for training and evaluation of the YOLOv8 model for civilian vehicle detection
+https://drive.google.com/open?id=1PFdW_VFSCfZ_sTSZAGjQdifF_Xd5mf0V
 ## Sungjay work:
 + My current work is to detect miliary vehicle along with some civilian vehicles. For this I am using Arma-dataset where there is label for 3 military vehicles namely marid,zamak and varsuk. But during testing the training model there are misclassification of civilian vehicles as marid,zamak and varsuk
 + How to resolve them? One way is to have more labels for civilian vehicles like car, tractor and so on. For that I used makesense.ai or google ai’s to label them.
