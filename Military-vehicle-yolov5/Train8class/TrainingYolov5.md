@@ -16,5 +16,6 @@ pip install torch torchvision torchaudio
 
 python train.py --img 640 --batch 8 --epochs 10 --data coco128.yaml --weights yolov5s.pt
 
+Trained model saved in **yolov5\runs\train\exp** directory along with results.
 
 
